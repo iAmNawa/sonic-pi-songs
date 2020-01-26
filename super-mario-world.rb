@@ -66,6 +66,7 @@ live_loop :hihat do
   sleep 0.125
 end
 4.times do
+  # first measure
   play :a4
   play :a5
   play :f3
@@ -95,6 +96,7 @@ end
   play :d5
   play :d4
   sleep 0.25
+  # second measure
   play :c5, release: 0.25
   play :c4, release: 0.25
   play :a3
@@ -125,6 +127,7 @@ end
   play :f4
   play :f3
   sleep 0.5
+  # third measure
   play :a4
   play :f3
   sleep 1
@@ -144,20 +147,26 @@ end
   sleep 0.75
   play :d4
   sleep 0.25
+  # 4th measure
+  play :c5
   play :c4
   sleep 0.5
+  play :f5
   play :f4
   play :d3
   sleep 0.5
-  play :bb4, release: 0.25
+  play :bb5, release: 0.25
   play :bb4, release: 0.25
   play :e3
   sleep 0.25
+  play :a5, release: 0.25
   play :a4, release: 0.25
   sleep 0.25
+  play :g5, release: 0.25
   play :g4, release: 0.25
   play :g3
   sleep 0.25
+  play :f5
   play :f4
   sleep 0.25
   play :f3
